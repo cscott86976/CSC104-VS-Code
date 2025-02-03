@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Autism</title>
+    <link rel="stylesheet" href="AI Collaboration.css">
+</head>
+<body>
+    <!-- Header section with the main title -->
+    <header>
+        <h1>Understanding Autism</h1>
+    </header>
+    <!-- Navigation links -->
+    <nav>
+        <a href="#what">What is Autism?</a>
+        <a href="#causes">Causes</a>
+        <a href="#symptoms">Symptoms</a>
+        <a href="#diagnosis">Diagnosis</a>
+        <a href="#treatment">Treatment</a>
+        <a href="#support">Support</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+    <!-- Main content area -->
+    <main>
+        <!-- Section for "What is Autism?" -->
+        <section id="what">
+            <h2>What is Autism?</h2>
+            <div class="photo">
+                <img src="./images for final html/autism-awareness-quote-vector_841060-65.avif" alt="Understanding Autism">
+            </div>
+            <p>Autism, or Autism Spectrum Disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech, and nonverbal communication. The term "spectrum" reflects the wide variation in challenges and strengths possessed by each person with autism.</p>
+        </section>
+        <!-- Section for causes of autism -->
+        <section id="causes">
+            <h2>Causes</h2>
+            <p>The exact causes of autism are not known, but research suggests a combination of genetic and environmental factors may play a role. Some potential contributing factors include:</p>
+            <ul>
+                <li>Genetic mutations</li>
+                <li>Parental age at the time of conception</li>
+                <li>Complications during pregnancy or birth</li>
+                <li>Environmental exposures</li>
+            </ul>
+        </section>
+        <!-- Section for symptoms of autism -->
+        <section id="symptoms">
+            <h2>Symptoms</h2>
+            <p>Autism's symptoms can vary widely and might include:</p>
+            <ul>
+                <li>Difficulty with communication and interaction with other people</li>
+                <li>Restricted interests and repetitive behaviors</li>
+                <li>Symptoms that affect the individual's ability to function socially, at school or work, or in other areas of life</li>
+            </ul>
+        </section>
+        <!-- Section for diagnosis of autism -->
+        <section id="diagnosis">
+            <h2>Diagnosis</h2>
+            <p>Autism is typically diagnosed based on the presence of specific behavioral symptoms. The diagnostic process often involves:</p>
+            <ul>
+                <li>Developmental screenings by pediatricians</li>
+                <li>Comprehensive diagnostic evaluations</li>
+                <li>Observations and interviews with caregivers</li>
+                <li>Standardized tests and checklists</li>
+            </ul>
+        </section>
+        <!-- Section for treatment of autism -->
+        <section id="treatment">
+            <h2>Treatment</h2>
+            <p>While there is no cure for autism, early intervention and supportive treatments can improve outcomes. Treatment options may include:</p>
+            <ul>
+                <li>Behavioral therapies</li>
+                <li>Speech and language therapy</li>
+                <li>Occupational therapy</li>
+                <li>Educational interventions</li>
+                <li>Medication management</li>
+            </ul>
+        </section>
+        <!-- Section for support for individuals with autism -->
+        <section id="support">
+            <h2>Support</h2>
+            <p>Early intervention can improve learning, communication, and social skills, as well as underlying brain development. Support for individuals with autism can include:</p>
+            <ul>
+                <li>Behavioral therapies</li>
+                <li>Speech and language therapy</li>
+                <li>Occupational therapy</li>
+                <li>Educational support</li>
+                <li>Medication management</li>
+            </ul>
+        </section>
+        <!-- Section for the autism quiz game -->
+        <section id="quiz">
+            <h2>Autism Awareness Quiz</h2>
+            <p>Test your knowledge about autism!</p>
+            <p>Question: What does the term "spectrum" in Autism Spectrum Disorder refer to?</p>
+            <form>
+                <input type="radio" id="answer1" name="quiz" value="A">
+                <label for="answer1">A. The range of colors in the autism awareness ribbon</label><br>
+                <input type="radio" id="answer2" name="quiz" value="B">
+                <label for="answer2">B. The variety of challenges and strengths each person with autism possesses</label><br>
+                <input type="radio" id="answer3" name="quiz" value="C">
+                <label for="answer3">C. The different treatment options available for autism</label><br>
+                <button type="button" onclick="checkAnswer()">Submit Answer</button>
+            </form>
+            <p id="quizResult"></p>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Understanding Autism. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for the quiz game -->
+    <script>
+        function checkAnswer() {
+            const selectedAnswer = document.querySelector('input[name="quiz"]:checked');
+            const result = document.getElementById('quizResult');
+
+            if (selectedAnswer) {
+                if (selectedAnswer.value === "B") {
+                    result.textContent = "Correct! The term 'spectrum' refers to the variety of challenges and strengths each person with autism possesses.";
+                    result.style.color = 'green';
+                } else {
+                    result.textContent = "Incorrect. Try again.";
+                    result.style.color = 'red';
+                }
+            } else {
+                result.textContent = "Please select an answer.";
+                result.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+</html>

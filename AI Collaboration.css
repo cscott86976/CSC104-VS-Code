@@ -1,0 +1,60 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f4f8;
+}
+/* Styling for the header section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* Styling for the navigation links */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+/* Styling for the main content area */
+main {
+    margin: 20px 0;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333;
+}
+/* Styling for the photo section */
+.photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photo img {
+    border: 2px solid #4CAF50;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: auto;
+}
+/* Styling for the game section */
+#quiz {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
