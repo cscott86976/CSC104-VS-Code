@@ -3,6 +3,21 @@ body{
     background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkred;
-    margin: 0;
-    padding: 0;
+    margin: 10%;
+    padding: 10%;
+}
+h1{
+    color: black;
+    padding: 10px;
+}
+h2{
+    color: darkgreen;
+    padding: 20px;
+}
+h3{
+    color: darkmagenta;
+}
+p{
+    padding: 10px;
+    text-align: center;
 }

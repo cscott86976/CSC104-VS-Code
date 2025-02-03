@@ -1,0 +1,91 @@
+    <!--This is a HTML code comment;the browser will not show information to the user; the user can see HTML comment if they see source; do not store sensitive info on comment-->
+    <!--The first HTML coment on our page will set the DOCTYPE to html to let the browser know this is an HTML5 webpage-->
+  <!DOCTYPE html>  
+    <!--the next tag is the html tag; we will set the language attribute to en (English)-->
+    <html lang="en">
+        <!--THe head section of the webpage gives info to the browser and search engines about our website-->
+        <head>
+            <!--This meta tag tells the browser that pretty much any character from any language will appear on our page-->
+            <meta charset="UTF-8">
+            <!-- This meta tag is the first step in having a responsive wevsite design; the webpage will look funky on a mobile device without it-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.8">
+            <!-- This title will appear in the broswer tab - be short, sweet and descriptive with your title-->
+            <title> HTML Basics </title>
+
+           <!--Embedded style section; these styles will only apply to this page-->
+           <style>
+            
+           </style>
+
+        <!--add a link to the CSS file-->
+        <link rel="stylesheet" href="main.css">
+            <!--The closing tag needs to be after any meta links and title tags-->
+        </head>
+        
+        <!--THis next section is the body where our page content - text, images, videos- goes-->
+        <body>
+            <!--h1  is the first level heading there should be only 1 on a page-->
+            <h1>HTML Basics</h1>
+
+            <!--p is the paragraph tag traditionally  if you have a few sentences, they would go in a p tag; by default there is spacing around the paragraph tag-->
+            <p>HTML stands for hyperText markup language. HTML provides the structure of the webpage by marking up the text with various tags to organize the webpage content. HTML does not have many rules but does have some best practices, such as using 1 h1 tag on a page </p>
+
+            <!--lets discuss some html history; we will use a second level heading - h2-->
+            <h2>History of HTML</h2>
+
+            <!--ul is an unordered list; by default li-list items- will have bullet points-->
+            <ul>
+                <li> HTML 1.0 developed in  early 1990s</li>
+                <li>HTML 2.0 released in 1995</li>
+                <li> HTML3.2 released in 1997</li>
+                <li> HTML 4.01 released in 1999</li>
+                <li> HTML 5 released in 2014 (current/living version)</li>
+            </ul>
+           
+           
+           
+            <!--Heading 2 here for CSS image here-->
+            <h2>Cascading Style Sheet (CSS)</h2>
+
+            <p class="textFormat"> CSS is a language that is used to make HTML tags look better. It can control layouts, colors, font- basically  any visual elements on the page can be changed from its default look using CSS.</p>
+            
+            <h2 id="h2CSSHistory">History of CSS</h2>
+            
+            <!--bulleted list of CSS History-->
+            <ul>
+                <li>CSS1 released in 1996</li>
+                <li>CSS2 released in 1998</li>
+                <li>CSS3 released in 2011- current/ living version of CSS</li>
+            </ul>
+
+            <!-- heading level 3-->
+             <h3> Basic CSS structure</h3>
+
+             <pre>
+                selector{
+                    property: value;
+                }
+             </pre>
+
+             <ul>
+                <li> CSS selectors can be HTML element, id of an HTML element, custom class</li>
+                <li> CSS helps with seperation of content and looks</li>
+                <li> When set up globally, CSS is easy to maintain</li>
+                <li> Accessibility is easier to manage with CSS</li>
+             </ul>
+
+             <!--this is an inline style - you can change anything about how this HTML element looks; use sparingly-->
+             <h3 style="font-family: Arial, Helvetica, sans-serif; ">Ways to include CSS on our pages</h3>
+
+             <ul>
+                <li>External - This is best practices - we have seperate CSS file</li>
+                <li>Embedded - this CSS applies to just 1 page - located in the head section</li>
+                <li>Inline - this is where we set CSS on individual HTML elements - use sparingly</li>
+             </ul>
+
+
+            <!--This closing body tags should be the next to the last line of your HTML tag-->
+        </body>
+        <!--This closing html tag needs to be the last line of our html pages-->
+    </html>
+   
