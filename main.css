@@ -1,0 +1,21 @@
+/*HTML selectors*/
+body{
+    background-color: rgba(211, 211, 211, 0.824);
+    color:rgb(32, 32, 219);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: aquamarine;
+}
+p{
+    color: rgb(17, 250, 103);
+}
+/*ID selectors*/
+#h2CSSHistory{
+    color: red;
+}
+/*Custom class selectors*/
+.textFormat{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}

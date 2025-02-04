@@ -1,0 +1,8 @@
+/*global page styles */
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+}
