@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exmaple</title>
+
+    <style>
+        body{
+            background-color: grey;
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            /*multiple borders will collapse into 1 to give the table a cleaner look*/
+            border-collapse: collapse;
+            border: 1px solid white;
+            width: 100%;
+        }
+        td,th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Table Example</h1>
+    </header>
+    <main>
+        <!--tables should be rows and columns of information-->
+        <table>
+            <!--caption helps give context to the table data-->
+            <caption>Interestin Facts and my reaction</caption>
+
+            <!--set up table headings-->
+            <!--tr is table row and every row of data should start and end with tr tags-->
+            <thead>
+                ><tr>
+                <!--th is table heading-->
+                <th scope="col"> Number</th>
+                <th scope="col"> Fact</th>
+                <th scope="col"> Reaction</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1</td>
+                <td> Honey rarely spoils</td>
+                <td>wow</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Eiffle tower is taller in then summer</td>
+                <td>okay</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The first pc virus was created in the 1980s</td>
+            </tr>
+        </tbody>
+        </table>
+    </main>
+</body>
+</html>

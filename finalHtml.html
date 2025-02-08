@@ -5,22 +5,22 @@
     <title>Trash Pandas Upcycling</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="finaloption2.css">
+    <link rel="stylesheet" href="final.css">
 </head>
 <body>
     <!-- Navigation Menu -->
-    <nav>
-        <div class="logo">Tra$h Panda$</div>
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#projects">DIY Projects</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+<nav>
+    <div class="logo"> Tra$h Panda$ Upcycling</div>
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#free-items">Free Items</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
 
     <!-- Home Section -->
     <section id="home">
@@ -74,10 +74,32 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+<!-- Free Items Section -->
+<section id="free-items">
+    <h2>Free Items Available for Upcycling</h2>
+    <p>Discover and share locations of free items that can be upcycled into something amazing!</p>
+
+    <!-- Display of Free Items -->
+    <div class="free-items-container" id="free-items-container">
+        <!-- Free items will be dynamically inserted here -->
+    </div>
+
+    <!-- Post a Free Item Form -->
+    <h3>Post a Location of Free Items</h3>
+    <form id="free-item-form">
+        <input type="text" name="title" placeholder="Title of the Item*" required>
+        <textarea name="description" placeholder="Description*" required></textarea>
+        <input type="text" name="location" placeholder="Location*" required>
+        <button type="submit">Post Item</button>
+    </form>
+</section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Tra$h Panda$. All rights reserved.</p>
     </footer>
+    <!-- Include JavaScript File -->
+<script src="js/scripts.js"></script>
+
 </body>
 </html>
